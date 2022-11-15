@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration:none ;
+}
+h1{
+    text-align: center;
+    font: bold;
+    font-size: 60px;
+}
+ul{
+    display: flex;
+    margin-left: 610px;
+    /* border: 1px solid black; */
+}
+li{
+    margin: 7px;
+    padding: 0px 37px;
+    border: 2px solid #C77136;
+}
+ul li a{
+    font-size: 30px;
+    color: black;
+}
+li:hover{
+    background-color: #C77136;
+}
+.intro{
+    display: flex;
+    align-items: center;
+}
+.intro img{
+    margin: auto;
+    width: auto;
+    max-height: max-content;
+    height: fit-content;
+}
+.card{
+    margin-top: 10px;
+    padding: 0px 350px;
+    display: flex;
+
+}
+.card .blend-coffee{
+    width: 400px;
+    height: 450px;
+    border: 2px solid #C77136;
+    border-radius: 3%;
+}
+.card .blend-coffee h3{
+    margin-top: 9px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    font-size: 24px;
+}
+.card .blend-coffee img{
+    width: 70%;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+.card .blend-coffee p{
+    padding: 0px 3px;
+}
+
+.card .french-roast{
+    width: 400px;
+    height: 450px;
+    border: 2px solid #C77136;
+    border-radius: 3%;
+}
+.card .french-roast h3{
+    margin-top: 9px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    font-size: 24px;
+}
+.card .french-roast img{
+    width: 70%;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+.card .french-roast p{
+    padding: 0px 3px;
+}
+
+.card .columbian-roast{
+    width: 400px;
+    height: 450px;
+    border: 2px solid #C77136;
+    border-radius: 3%;
+}
+.card .columbian-roast h3{
+    margin-top: 9px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    font-size: 24px;
+}
+.card .columbian-roast img{
+    width: 70%;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+.card .columbian-roast p{
+    padding: 0px 3px;
+}
