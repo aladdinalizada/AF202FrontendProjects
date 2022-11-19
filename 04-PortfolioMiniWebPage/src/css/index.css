@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root{
+    --main-color: #FFFAEB;
+    --button-color: #E9B949;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 90px;
+    font-weight: bolder;
+    color: #102A42;
+}
+/* HEADER */
+header .container{
+    padding: 0px 250px;
+    width: 100%;
+    height: 86px;
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--main-color);
+}
+header .container .navbar nav ul{
+    display: flex;
+}
+header .container .navbar nav ul li{
+    padding: 0px 32px;
+}
+header .container .navbar nav ul li a{
+    font-size: 23px;
+    font-weight: bold;
+    color: #102A42;
+}
+header .container .navbar nav ul li a:hover{
+    color: #E9B949;
+}
+header .container .navbar nav ul li a b{
+    letter-spacing: 4px;
+    font: 1em sans-serif;
+}
+
+/* END HEADER */
+
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    top: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--main-color);
+}
+.hero .left .top .h1{
+    border: 4px solid #E9B949;
+    color: #E9B949;
+    width: 104px;
+    height: 4px;
+}
+.hero .left .top p{
+    color: #617D98;
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.hero .left .button button{
+    width: 110px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: medium;
+    background-color: #E9B949;
+    border: 1px solid #E9B949;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.hero .left .button button:hover{
+    background-color: #F4D685;
+    transition: 0.5s;
+}
+.hero .left .bottom{
+    margin-top: 70px;
+}
+.hero .left .bottom ul li a i{
+    letter-spacing: 50px;
+    font-size: 40px;
+    color: #102A42;
+}
+.hero .left .bottom ul li a i:hover{
+    color: #E9B949;
+}
+.hero .right .photo-cover{
+    width: 350px;
+    height: 500px;
+    border: 5px solid #E9B949;
+    border-radius: 3%;
+    position: relative;
+}
+.hero .right .self-photo img{
+    width: 350px;
+    border: 1px solid --main-color;
+    border-radius: 3%;
+    position: absolute;
+    top: -70px;
+    left: -60px;
+}
+
+/* ABOUT */
+
+.about{
+    position: relative;
+}
+.about .container{
+    padding: 0px 140px;
+    position: absolute;
+    top: 888px;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .container .left .image-cover {
+    width: 350px;
+    height: 600px;
+    border: 4px solid #E9B949;
+    border-radius: 3%;
+    position: relative;
+}
+.about .container .left .image-cover .image img{
+    border: 1px solid #FFFAEB;
+    border-radius: 3%;
+    position: absolute;
+    top: -60px;
+    left: 40px;
+}
+.about .right{
+    width: 30%;
+}
+.about .right h2{
+    font-size: 80px;
+    color: #102A42;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+.about .right .h1{
+    border: 4px solid #E9B949;
+    background-color: #E9B949;
+    width: 119px;
+    height: 4px;
+}
+.about .container .right p{
+    margin-top: 30px;
+    font-size: 24px;
+}
+.about .container .right button{
+    width: 110px;
+    height: 35px;
+    margin-top: 40px;
+    font-size: medium;
+    background-color: #E9B949;
+    border: 1px solid #E9B949;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+}
+.about .container .right button:hover{
+    background-color: #F4D685;
+    transition: 0.5s;
+}
