@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DDDDDD;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+.leftBox{
+    width: 50%;
+    height: 100%;
+}
+.leftBoxHeader{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.leftBoxHeaderLeft{
+    width: 50%;
+    height: 100%;
+    background-color: #225CC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DDDDDD;
+    color: white;
+}
+.leftBoxHeaderRight{
+    width: 50%;
+    height: 100%;
+    background-color: #225CC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DDDDDD;
+    color: white;
+}
+.leftBoxFooter{
+    width: 100%;
+    height: 50%;
+}
+.leftBoxFooterTop{
+    width: 100%;
+    height: 50%;
+    background-color: #225CC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.leftBoxFooterBottom{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.leftBoxFooterCard{
+    width: 25%;
+    height: 100;
+    background-color: #225CC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid #DDDDDD;
+}
+.rightBox{
+    width: 50%;
+    height: 100%;
+}
+.rightBoxHeader{
+    width: 100%;
+    height: 50%;
+}
+.rightBoxFooter{
+    width: 100%;
+    height: 50%;
+    background-color: #225CC7;
+    border: 2px solid #DDDDDD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightBoxHeaderTop{
+    width: 100%;
+    height: 50%;
+    background-color: #225CC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DDDDDD;
+    color: white;
+}
+.rightBoxFooterBottomCard{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.rightBoxFooterBottomCardBox{
+    width: 25%;
+    height: 234px;
+    background-color: #225CC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #225CC7;
+    border: 2px solid #DDDDDD;
+}
+
+
+/* DesktopSize */
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .container{
+        display: block;
+    }
+    .leftBox{
+        width: 100%;
+    }
+    .rightBox{
+        width: 100%;
+    }
+    .leftBoxHeaderLeft{
+        background-color: red;
+    }
+    .leftBoxHeaderRight{
+        background-color: red;
+    }
+    .rightBoxHeaderTop{
+        background-color: red;
+    }
+    .rightBoxFooterBottomCardBox{
+        background-color: red;
+    }
+    .rightBoxFooter{
+        background-color: red;
+    }
+    .leftBoxFooterCard{
+        background-color: red;
+    }
+    .leftBoxFooterTop{
+        background-color: red;
+    }
+}
+
+/* TabletSize */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        display: block;
+    }
+    .leftBox{
+        width: 100%;
+    }
+    .rightBox{
+        width: 100%;
+    }
+    .leftBoxFooterBottom{
+        flex-wrap: wrap;
+        grid-row: 100%;
+    }
+    .leftBoxFooterCard{
+        width: 50%;
+    }
+    .rightBoxFooterBottomCard{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .rightBoxFooterBottomCardBox{
+        width: 50%;
+    }
+    .rightBoxFooter{
+        align-items: flex-end;
+    }
+    .leftBoxHeaderLeft{
+        background-color: green;
+    }
+    .leftBoxHeaderRight{
+        background-color: green;
+    }
+    .rightBoxHeaderTop{
+        background-color: green;
+    }
+    .rightBoxFooterBottomCardBox{
+        background-color: green;
+    }
+    .rightBoxFooter{
+        background-color: green;
+    }
+    .leftBoxFooterCard{
+        background-color: green;
+    }
+    .leftBoxFooterTop{
+        background-color: green;
+    }
+}
+
+/* MobileSize */
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .container{
+        display: block;
+    }
+    .leftBox{
+        width: 100%;
+        height: 50%;
+    }
+    .leftBoxHeader{
+        display: block;
+    }
+    .leftBoxHeaderLeft{
+        width: 100%;
+    }
+    .leftBoxHeaderRight{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .leftBoxFooterBottom{
+        flex-wrap: wrap;
+    }
+    .leftBoxFooterCard{
+        width: 100%;
+    }
+    .rightBoxFooterBottomCard{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .rightBoxFooterBottomCardBox{
+        width: 100%;
+    }
+    .rightBox{
+        width: 100%;
+    }
+    .rightBoxHeader{
+        width: 100%;
+    }
+    .rightBoxHeaderTop{
+        width: 100%;
+    }
+
+    .leftBoxHeaderLeft{
+        background-color: yellow;
+    }
+    .leftBoxHeaderRight{
+        background-color: yellow;
+    }
+    .rightBoxHeaderTop{
+        background-color: yellow;
+    }
+    .rightBoxFooterBottomCardBox{
+        background-color: yellow;
+    }
+    .rightBoxFooter{
+        background-color: yellow;
+    }
+    .leftBoxFooterCard{
+        background-color: yellow;
+    }
+    .leftBoxFooterTop{
+        background-color: yellow;
+    }
+}
