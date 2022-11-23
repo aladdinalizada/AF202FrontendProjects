@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Grand+Hotel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+#products p {
+  font-size: larger;
+  width: 70%;
+  font-weight: bold;
+}
+#products h2 {
+  /* margin-top: 20px; */
+  font-size: xx-large;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+#products img {
+  width: 290px;
+  height: 300px;
+  /* height: 100%; */
+  border: 1px solid black solid #f1f5f8;
+  border-radius: 5%;
+}
+#products span {
+  font-size: xx-large;
+  font-family: "Grand Hotel", cursive;
+  color: #708f44;
+  font-weight: bold;
+}
+#products button {
+  width: 30%;
+  background-color: #708f44;
+  font-weight: bold;
+  color: white;
+  border-color: #f1f5f8;
+  letter-spacing: 2px;
+  margin: 30px 30px 30px 0px;
+}
+#products button:hover {
+  background-color: #b0dc85;
+  transition: 0.7s;
+  color: #7da670;
+}
+.price-box {
+  /* border: 1px solid black solid black; */
+  width: 100%;
+}
+#products {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f5f8;
+}
+.left {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.first-box {
+  width: 50%;
+}
+
+/* Services */
+#services {
+  width: 100%;
+  height: 90vh;
+  border: 1px solid black;
+}
+#services .head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+#services .head h3 {
+  color: #708f44;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: "Grand Hotel", cursive;
+  letter-spacing: 2px;
+}
+#services .head h2 {
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#services .bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#services .bottom .box {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 3%;
+  display: flex;
+  align-items: center;
+}
+#services p {
+  font-size: x-large;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+#services span {
+  font-size: large;
+  font-weight: bolder;
+  color: #b5bfc8;
+}
+#services button {
+  background-color: #649343;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10%;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 0px 10px;
+  margin: 20px;
+  font-size: large;
+}
+#services button:hover {
+  background-color: #b0dc85;
+  color: black;
+  transition: 0.7s;
+}
+.header {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header img {
+  width: 80%;
+  height: 300px;
+}
+.bottom i {
+  font-size: xx-large;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: #b9f287;
+  color: #638e3e;
+}
+/* .header i {
+  position: absolute;
+  top: 890px;
+  left: 5px; */
+/* } */
