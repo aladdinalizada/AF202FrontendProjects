@@ -1,0 +1,59 @@
+#about-our {
+  .container {
+    padding: 80px 0px;
+    .about-our {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .about-image {
+        width: 50%;
+        border: 5px solid #69993d;
+        .about-img-holder {
+          width: 100%;
+          height: 100%;
+          background: url(../image/about-bcg.jpeg;);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: all 1s;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .about-tittle {
+        margin-left: 40px;
+        .box {
+          width: 100%;
+          button {
+            background-color: $color-green;
+            color: white;
+            padding: 10px;
+            border-color: white;
+            margin: 40px 0 0;
+            letter-spacing: 2px;
+            &:hover {
+              background-color: $button-hover-color;
+              color: black;
+              transition: 1s;
+            }
+          }
+          p {
+            font-family: $Grand-hotel;
+            color: $color-green;
+            font-size: xx-large;
+            padding: 10px 0;
+          }
+          h2 {
+            font-size: 40px;
+            margin: 10px 0px;
+          }
+          span {
+            font-size: larger;
+            padding: 30px 0px;
+          }
+        }
+      }
+    }
+  }
+}
