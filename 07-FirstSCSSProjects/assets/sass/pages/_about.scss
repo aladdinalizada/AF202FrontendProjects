@@ -56,4 +56,18 @@
       }
     }
   }
+  @media only screen and (max-width: 992px) {
+    .about-our {
+      flex-direction: column;
+      text-align: center;
+    }
+    .about-tittle {
+      .box {
+        span {
+          padding: 10px 0px;
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
