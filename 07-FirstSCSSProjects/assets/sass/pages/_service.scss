@@ -1,0 +1,82 @@
+#services {
+  .container {
+    .services {
+      margin-bottom: 100px;
+      .top {
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+        p {
+          font-family: $Grand-hotel;
+          letter-spacing: 2px;
+          font-size: x-large;
+          color: $color-green;
+          font-weight: bold;
+        }
+        h2 {
+          padding: 10px 0 80px;
+          font-size: xx-large;
+        }
+      }
+      .bottom {
+        // border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        .card {
+          width: 28%;
+          background-color: $bg-color;
+          border-radius: 5%;
+          position: relative;
+          img {
+            width: 100%;
+            border-top-left-radius: 6%;
+            border-top-right-radius: 6%;
+          }
+          i {
+            background-color: $button-hover-color;
+            color: $color-green;
+            padding: 30px;
+            font-size: larger;
+            border-radius: 50%;
+            // position: absolute;
+            // top: 225px;
+            // left: 125px;
+          }
+          h4 {
+            font-size: x-large;
+            margin-top: 20px;
+          }
+          p {
+            margin: 0 15px 20px;
+          }
+          button {
+            background-color: $color-green;
+            border-color: white;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid white;
+            border-radius: 10%;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #services {
+    .container {
+      .services {
+        .bottom {
+          flex-direction: column;
+          row-gap: 30px;
+          .card {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

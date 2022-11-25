@@ -1,0 +1,36 @@
+#end {
+  background-color: #1b1b1b;
+  color: white;
+  .container {
+    .end {
+      padding: 80px;
+      .foot {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        ul {
+          display: flex;
+          li {
+            margin: 0 30px;
+            padding-bottom: 30px;
+            i {
+              font-size: xx-large;
+              transition: 0.5s;
+              &:hover {
+                color: $button-hover-color;
+              }
+            }
+          }
+        }
+        p {
+          span {
+            color: $color-green;
+          }
+        }
+      }
+    }
+  }
+}

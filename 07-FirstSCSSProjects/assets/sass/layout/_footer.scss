@@ -1,157 +1,96 @@
-$color_1: #698e4d;
-$color_2: #687e98;
-$color_3: #fff;
-$color_4: white;
-$font-family_1: "Josefin Sans", sans-serif;
-$background-color_1: #f1f5f8;
-$background-color_2: #fff;
-$background-color_3: #698e4d;
-$background-color_4: #222222;
-
-footer {
-  background-color: $background-color_1;
+#footer {
+  background-color: $bg-color;
   .container {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
-    padding: 59px 79px;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
-    padding: 59px 79px;
-    .head {
-      display: flex;
-      display: flex;
-      p {
-        text-indent: 10px;
-        color: $color_1;
-        text-indent: 10px;
-        color: $color_1;
+    .footer {
+      padding: 100px 0px;
+      .head {
+        display: flex;
+        justify-content: space-between;
+        .left {
+          .ear {
+            i {
+              color: $color-green;
+              margin-bottom: 10px;
+            }
+            span {
+              color: $button-hover-color;
+            }
+            p {
+              font-weight: 600;
+              letter-spacing: 2px;
+            }
+          }
+        }
+        .right {
+          border: 1px solid $bg-color;
+          border-radius: 3%;
+          background-color: white;
+          width: 40%;
+          .form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            margin: 25px;
+            color: #6b7f92;
+            text-align: center;
+            input {
+              width: 100%;
+              border: 1px solid white;
+              border-radius: 3%;
+              padding: 5px 0px;
+              padding-left: 10px;
+              background-color: $bg-color;
+            }
+            h2 {
+              margin-bottom: 30px;
+            }
+            textarea {
+              width: 100%;
+              padding-top: 5px;
+              padding-left: 10px;
+              font-size: large;
+              background-color: $bg-color;
+              border: 1px solid white;
+            }
+          }
+          button {
+            width: 100%;
+            background-color: $color-green;
+            color: white;
+            padding: 10px 0;
+            word-spacing: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: 0.5s;
+            border: 1px solid white;
+            border-bottom-left-radius: 3%;
+            border-bottom-right-radius: 3%;
+            &:hover {
+              background-color: $button-hover-color;
+              color: black;
+            }
+          }
+        }
       }
     }
   }
-  i {
-    color: $color_1;
-    color: $color_1;
-  }
-  .right {
-    width: 400px;
-    height: 340px;
-    background-color: $background-color_2;
-    border: 1px solid white;
-    border-radius: 3%;
-    width: 400px;
-    height: 340px;
-    background-color: $background-color_2;
-    border: 1px solid white;
-    border-radius: 3%;
-    h2 {
-      margin-top: 15px;
-      margin-bottom: 15px;
-      font-size: 25px;
-      letter-spacing: 2px;
-      text-align: center;
-      color: $color_2;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      font-size: 25px;
-      letter-spacing: 2px;
-      text-align: center;
-      color: $color_2;
-    }
-    form {
-      padding: 0px 20px;
-      padding: 0px 20px;
-      input {
-        width: 100%;
-        padding: 10px;
-        background-color: $background-color_1;
-        border: 1px solid white;
-        border-radius: 3%;
-        width: 100%;
-        padding: 10px;
-        background-color: $background-color_1;
-        border: 1px solid white;
-        border-radius: 3%;
-      }
-      textarea {
-        width: 100%;
-        padding: 10px;
-        background-color: $background-color_1;
-        border: 1px solid white;
-        border-radius: 3%;
-        width: 100%;
-        padding: 10px;
-        background-color: $background-color_1;
-        border: 1px solid white;
-        border-radius: 3%;
+}
+@media only screen and (max-width: 992px) {
+  #footer {
+    .container {
+      .footer {
+        .head {
+          flex-direction: column;
+          row-gap: 40px;
+          .left {
+            width: 100%;
+            text-align: center;
+          }
+          .right {
+            width: 100%;
+          }
+        }
       }
     }
-    button {
-      width: 100%;
-      height: 37px;
-      background-color: $background-color_3;
-      border: 1px solid white;
-      border-radius: 5%;
-      width: 100%;
-      height: 37px;
-      background-color: $background-color_3;
-      border: 1px solid white;
-      border-radius: 5%;
-      a {
-        color: $color_3;
-        font-size: 16px;
-        color: $color_3;
-        font-size: 16px;
-      }
-    }
-  }
-  .bottom {
-    width: 100%;
-    height: 200px;
-    background-color: $background-color_4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 1px;
-    width: 100%;
-    height: 200px;
-    background-color: $background-color_4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 1px;
-    .box {
-      i {
-        color: $color_3;
-        font-size: 29px;
-        padding: 0px 10px;
-        color: $color_3;
-        font-size: 29px;
-        padding: 0px 10px;
-      }
-      text-align: center;
-      text-align: center;
-    }
-    h3 {
-      color: $color_4;
-      font-size: 20px;
-      color: $color_4;
-      font-size: 20px;
-    }
-    strong {
-      color: $color_1;
-      color: $color_1;
-    }
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: $font-family_1;
-    text-decoration: none;
-    list-style-type: none;
   }
 }
