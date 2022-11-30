@@ -114,7 +114,6 @@ full_dev = [];
 
 front_lang = ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js"];
 back_lang = ["C#", "Java", "SQl", "Python", "Express", "MongoDB", "Node"];
-
 for (let i = 0; i < users.length; i++) {
   front = false;
   back = false;
