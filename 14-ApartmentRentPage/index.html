@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d52de574e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="assets/image/favicon/key.png" />
+
+    <!-- Ajax Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Title -->
+    <title>Apartment Rental | W3Scholl</title>
+  </head>
+  <body>
+    <div class="siteBody">
+      <div class="siteBodyLeft">
+        <div class="head">
+          <h2>Rental</h2>
+          <h2>from $99</h2>
+          <h3>per night</h3>
+        </div>
+        <br />
+        <div class="filter">
+          <div class="checkIn">
+            <label for="checkIn"
+              ><i class="fa-regular fa-calendar-check"></i>Check in</label
+            >
+            <input
+              type="date"
+              id="checkIn"
+              class="filterCheckIn"
+              placeholder="DD MM YYYY"
+              required
+            />
+          </div>
+          <br />
+          <div class="checkOut">
+            <label for="checkOut">
+              <i class="fa fa-calendar-o"></i>Check Out</label
+            >
+            <input
+              type="date"
+              id="checkOut"
+              class="filterCheckOut"
+              placeholder="DD MM YYYY"
+              required
+            />
+          </div>
+          <br />
+          <div class="adults">
+            <label for="adults"
+              ><i class="fa-sharp fa-solid fa-person"></i>Adults</label
+            >
+            <input type="number" id="adults" class="filterAdults" />
+          </div>
+          <br />
+          <div class="kids">
+            <label for="kids">
+              <i class="fa-solid fa-child-reaching"></i>Kids</label
+            >
+            <input type="number" id="kids" class="filterKids" />
+          </div>
+          <br />
+          <div class="button">
+            <button id="searchBtn">
+              <i class="fa-solid fa-magnifying-glass"></i>Search availability
+            </button>
+          </div>
+        </div>
+        <br />
+        <div class="apartment">
+          <button class="apartmentBtn">
+            <i class="fa-sharp fa-solid fa-building"></i>Apartment
+          </button>
+        </div>
+        <div class="subscribe">
+          <button class="subsBtn">
+            <i class="fa-solid fa-rss"></i>Subscribe
+          </button>
+        </div>
+        <div class="contact">
+          <button class="contactBtn">
+            <i class="fa-solid fa-envelope"></i>Contact
+          </button>
+        </div>
+      </div>
+      <div class="siteBodyRight">
+        <h2>The Apartment</h2>
+
+        <div class="the-space">
+          <h4><strong>The space</strong></h4>
+          <div class="box">
+            <div class="left">
+              <div class="people">
+                <p><i class="fa-sharp fa-solid fa-person"></i> Max people: 4</p>
+              </div>
+              <div class="bathrooms">
+                <p><i class="fa-solid fa-bath"></i>Bathrooms:2</p>
+              </div>
+              <div class="bedrooms">
+                <p><i class="fa-solid fa-bed"></i>Bedrooms:1</p>
+              </div>
+            </div>
+            <div class="right">
+              <div class="checkin">
+                <p><i class="fa-regular fa-clock"></i>Check In: After 3PM</p>
+              </div>
+              <div class="checkout">
+                <p><i class="fa-regular fa-clock"></i>Check Out: 12PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="amenities">
+          <h4><strong>Amenities</strong></h4>
+          <div class="box">
+            <div class="left">
+              <div class="shower">
+                <p><i class="fa-solid fa-shower"></i>Shower</p>
+              </div>
+              <div class="wifi">
+                <p><i class="fa-solid fa-wifi"></i>WiFi</p>
+              </div>
+              <div class="tv">
+                <p><i class="fa-solid fa-tv"></i>TV</p>
+              </div>
+            </div>
+            <div class="right">
+              <div class="kitchen">
+                <p><i class="fa-solid fa-utensils"></i>Kitchen</p>
+              </div>
+              <div class="heating">
+                <p><i class="fa-solid fa-temperature-full"></i>Heating</p>
+              </div>
+              <div class="accessible">
+                <p><i class="fa-solid fa-wheelchair"></i>Accessible</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="extra-info">
+          <h4><strong>Extra Info</strong></h4>
+          <p>
+            Our apartment is really clean and we like to keep it that way. Enjoy
+            the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            We accept:
+            <i class="fa fa-credit-card w3-large"></i>
+            <i class="fa fa-cc-mastercard w3-large"></i>
+            <i class="fa fa-cc-amex w3-large"></i>
+            <i class="fa fa-cc-paypal w3-large"></i>
+          </p>
+        </div>
+        <hr />
+        <div class="rules">
+          <h4>
+            <strong>Rules</strong>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            Subscribe to receive updates on available dates and special offers.
+          </p>
+          <button class="subsBtn2">Subscribe</button>
+        </div>
+        <hr />
+        <div class="contact-us">
+          <div class="contactHead">
+            <h2>Contact</h2>
+            <div class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Chicago, US</span>
+            </div>
+            <br />
+            <div class="phone">
+              <i class="fa-solid fa-phone"></i>
+              <span>Phone: +00 151515</span>
+            </div>
+            <br />
+            <div class="email-parse">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email: mail@mail.com</span>
+            </div>
+          </div>
+          <div class="contactBody">
+            <p>Questions? Go ahead, ask them:</p>
+            <input type="text" placeholder="Name" class="name" />
+            <input type="email" placeholder="Email" class="email" />
+            <input type="text" placeholder="Message" class="message" />
+            <button class="sendMessageBtn">Send a Message</button>
+          </div>
+          <br />
+          <p>Powered by <a href="">W3.CSS</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
